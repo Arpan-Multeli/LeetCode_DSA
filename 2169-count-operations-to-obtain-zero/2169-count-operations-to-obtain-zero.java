@@ -8,8 +8,8 @@ class Solution {
         }
 
         if(num1 >= num2){
-            return helper(num1 = num1 - num2, num2, count + 1);
+            return helper(num1 -= num2, num2, count + 1);
         }
-        return helper(num1, num2 = num2- num1,count + 1);
+        return helper(num1, num2 -= num1,count + 1);
     }
 }

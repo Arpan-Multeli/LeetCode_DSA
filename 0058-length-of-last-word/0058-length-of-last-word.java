@@ -7,11 +7,10 @@ class Solution {
         }
 
         int count = 0;
-    while (i >= 0 && s.charAt(i) != ' ') {
-        count++;
-        i--;
-    }
-    return count;
-        
+            while (i >= 0 && s.charAt(i) != ' ') {
+            count++;
+            i--;
+        }
+        return count;   
     }
 }

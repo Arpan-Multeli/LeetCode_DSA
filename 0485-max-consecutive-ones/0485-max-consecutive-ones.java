@@ -10,8 +10,11 @@ class Solution {
                 count = 0;
             }
 
-            counter = Math.max(counter, count);
-            
+            //counter = Math.max(counter, count);
+
+            if(counter < count){
+                counter = count;
+            }
         } return counter;
 
     }
